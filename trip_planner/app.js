@@ -10,4 +10,4 @@ app.get('/test', function(req, res){
   res.end("hurray!! trip_planner is working")
 });
 
-var server = app.listen(8080)
+var server = app.listen(8081)
