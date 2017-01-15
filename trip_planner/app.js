@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/static'));
 
 app.get('/test', function(req, res){
   console.log("In method test");
-  res.end("hurray!! trip_planner is working")
+  res.end("hurray!! trip_planner ishhh working")
 });
 
-var server = app.listen(8080)
+var server = app.listen(8090)
